@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&display=swap");
+
+:root {
+  --text-color-1: #fff;
+  --text-color-2: #f00;
+  --text-color-3: #070211;
+  --font-w-900: 900;
+  --font-w-500: 500;
+  --font-w-400: 400;
+  --font-w-700: 700;
+  --font-w-600: 600;
+  --font-size-p: 1.25rem;
+  --banner-font-size: 4.5rem;
+  --sub-heading-font-size: 3rem;
+  --small-heading-font-size: 1.5rem;
+  --inter: "Inter", sans-serif;
+  --merri: "Merriweather", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--inter);
+}
+
+.text-white {
+  color: var(--text-color-1);
+}
+
+.text-red {
+  color: var(--text-color-2);
+}
+
+.text-black {
+  color: var(--text-color-3);
+}
+
+.font-weight-400 {
+  font-weight: var(--font-w-400);
+}
+.font-weight-900 {
+  font-weight: var(--font-w-900);
+}
+.font-weight-700 {
+  font-weight: var(--font-w-700);
+}
+.font-weight-500 {
+  font-weight: var(--font-w-500);
+}
+.font-weight-600 {
+  font-weight: var(--font-w-600);
+}
+.font-size-1 {
+  font-size: var(--font-size-p);
+}
+.font-size-4 {
+  font-size: var(--banner-font-size);
+}
+.font-size-3 {
+  font-size: var(--sub-heading-font-size);
+}
+.font-size-0 {
+  font-size: var(--small-heading-font-size);
+}
+.rgb-60 {
+  color: rgba(7, 2, 17, 0.6);
+}
+.container {
+  max-width: 83rem;
+  margin: 3rem auto 7.5rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+.img-width-100 {
+  width: 100%;
+}
+.merri-font-family {
+  font-family: var(--merri);
+}
+.flex {
+  display: flex;
+}
+/* All common css end */
+header {
+  background-image: url("../../img/Banner\ Image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+
+.banner-content {
+  max-width: 39.5rem;
+  margin: 0 auto;
+  padding: 12rem 0;
+  text-align: center;
+}
+
+.banner-content h2 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.banner-content h1 {
+  line-height: 5.9375rem;
+}
+/* End of banner css */
+.main-sale {
+  max-width: 50.18125rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-sale h2 {
+  font-size: 5.5rem;
+  padding-bottom: 3rem;
+}
+
+.main-sale h3 {
+  padding: 1.5rem 0 3rem;
+}
+/* End of sale css*/
+.mid-night {
+  background-image: url("../../img/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem 1rem 1rem 1rem;
+  margin-top: 7.5rem;
+}
+
+.main-mid-night {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  padding: 7.88rem;
+}
+
+.mid-night-content p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.875rem;
+  padding: 1.5rem 0 3rem;
+}
+
+.mid-night-content a {
+  text-decoration: none;
+}
+/* End of mid-night css */
+.place {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.place-content {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 6.25rem 1rem;
+}
+
+.place-content p {
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+
+.place-content a {
+  margin: 4rem 0 0 0;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background: #f00;
+  text-decoration: none;
+}
+
+.join-now {
+  text-align: center;
+}
+/* End of place css */
+.flex-box {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+.percent-30 {
+  max-width: 30%;
+}
+.offer-content p {
+  padding: 1.5rem 0 2.69rem;
+}
+.padding-1-5 {
+  padding-bottom: 1.5rem;
+}
+.circle {
+  border-radius: 28.9375rem;
+  border: 15px solid #f00;
+  padding: 2rem;
+}
