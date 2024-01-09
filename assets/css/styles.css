@@ -101,6 +101,14 @@ body {
 .m-3 {
   margin-top: 3rem;
 }
+.justify-content-space-between {
+  justify-content: space-between;
+}
+hr {
+  background: rgba(255, 255, 255, 0.15);
+  max-width: 82.5rem;
+  margin: 0 auto;
+}
 /* All common css end */
 header {
   background-image: url("../../img/Banner\ Image.png");
@@ -296,3 +304,38 @@ input[type="submit"] {
   border: none;
   margin-left: -2rem;
 }
+/* End of News-letter css  */
+footer {
+  background-color: var(--text-color-3);
+}
+
+.contact .location {
+  line-height: 2.5rem;
+}
+
+.link-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.icons {
+  padding: 3rem 0;
+}
+
+.icons img {
+  padding: 0 1.5rem;
+}
+
+.copy-right {
+  max-width: 83rem;
+  margin: 0 auto;
+  padding: 3.13rem 0 7.5rem;
+}
+/* End of footer css */
